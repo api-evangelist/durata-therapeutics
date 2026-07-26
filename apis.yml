@@ -1,23 +1,62 @@
 aid: durata-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/durata-therapeutics.png
 name: Durata Therapeutics
-description: Durata Therapeutics is a company surfaced as a portfolio company of canaan-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Durata Therapeutics was a clinical-stage pharmaceutical company founded in 2009 around anti-infective
+  assets acquired from Pfizer's Vicuron division, headquartered first in Morristown, New Jersey and from 2012
+  in Chicago, Illinois. Its lead candidate was dalbavancin, a long-acting semisynthetic lipoglycopeptide
+  antibiotic taken into Phase III trials from 2011 for acute bacterial skin and skin-structure infections and
+  later marketed as Dalvance. The company was backed by Canaan Partners and was acquired by Actavis (now
+  Allergan) on November 17, 2014 for approximately $675 million, at which point it ceased to operate as an
+  independent entity. Durata Therapeutics published no developer program, no public API, and no machine-readable
+  API artifacts; its corporate domain duratatherapeutics.com no longer resolves. This profile is retained as a
+  historical company record in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/durata-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - canaan-partners
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: defunct-no-api-surface
+x-status: acquired
+x-acquired-by: Actavis (now Allergan)
+x-acquired-date: '2014-11-17'
+x-defunct: true
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Pharmaceuticals
+- Biotechnology
+- Life Sciences
+- Health
+- Anti-Infectives
+- Drug Development
+- Acquired
+- Defunct
 apis: []
+common: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  notes: Company defunct since the 2014 Actavis acquisition; duratatherapeutics.com does not resolve (no NS/SOA).
+    Domain-security, security-program, authentication and OAuth-scope probes all returned empty. No API,
+    developer portal, SDK, or specification surface exists to harvest.
